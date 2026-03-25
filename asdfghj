@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Click Play</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+} 
+
+body{
+  font-family:Arial, sans-serif;
+  background:#494545;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  padding:15px;
+}
+
+.container{
+  width:100%;
+  max-width:360px;
+  background:#ffffff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 0 15px rgba(0,0,0,0.15);
+  text-align:center;
+}
+
+.btn{
+  display:block;
+  width:100%;
+  padding:14px;
+  margin:10px 0;
+  color:#fff;
+  text-decoration:none;
+  font-size:16px;
+  font-weight:bold;
+  border-radius:8px;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.03);
+  opacity:0.9;
+}
+
+.btn1{background:#24292e;}
+.btn2{background:#e63946;}
+.btn3{background:#1d3557;}
+.btn4{background:#2a9d8f;}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<a href="https://t.co/T16DfVBPZy" class="btn btn1" target="_blank" rel="noopener noreferrer">
+👉🎥 Play Video 1
+</a>
+
+<a href="https://bio-shortlink.com/yusas" class="btn btn2" target="_blank" rel="noopener noreferrer">
+🔥 Watch Now 2
+</a>
+
+<a href="https://bio-shortlink.com/mdfnks" class="btn btn3" target="_blank" rel="noopener noreferrer">
+💯 Click To Open 3
+</a>
+
+<a href="https://bio-shortlink.com/klasa" class="btn btn4" target="_blank" rel="noopener noreferrer">
+🎬 Play Exclusive 4
+</a>
+
+<a href="https://t.co/SFKRh6J6LP" class="btn btn4" target="_blank" rel="noopener noreferrer">
+🎬 home
+</a>
+
+</div>
+
+</body>
+</html>
